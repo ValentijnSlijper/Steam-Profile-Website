@@ -1,0 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  cursor:url("./other/cursor.png"), default;
+
+}
+body{
+  background-color: black;
+}
+
+
+h1{
+  color: white;
+}
