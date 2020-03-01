@@ -15,7 +15,7 @@ var _app = function ()
         "Worst comes to worst, my peoples come first",
         " I am tired of talk that comes to nothing",
         "Overnight skilled player",
-        "Alcohl abuser",
+        "Alcohol abuser",
         "#4292"
     ];
 
