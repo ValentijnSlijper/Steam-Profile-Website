@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="p:domain_verify" content="7de3514ecb5bd0f807621de3ac373379"/>
+    <title> f r e s h . e u </title>
+    <script type="text/javascript">
+                var msg  = document.title ="Fresh.eu";
+                var speed = 300;
+                var endChar = " ";
+                var pos = 0;
+                function moveTitle()
+                {
+                     var ml = msg.length;
+                    title = msg.substr(pos,ml) + endChar + msg.substr(0,pos);
+                  document.title = title;
+
+                  pos++;
+                  if (pos > ml) pos=0;
+                  window.setTimeout("moveTitle()",speed);
+                }
+                moveTitle();
+</script>
+    <meta charset="UTF-8">
+    <meta name="description" content="Fresh.HD - Fresh">
+    <meta name="keywords" content="fresh.eu, fresh, eu, freshhd, csgo, hvh, youtube, project infinity">
+    <meta name="author" content="Fresh">
+    <meta property="og:type" content="site">
+    <meta property="og:title" content="fresh.eu">
+    <meta property="og:description" content="fresh.eu - Fresh">
+    <meta property="og:url" content="https://fresh.eu/">
+    <meta itemprop="name" content="fresh.eu">
+    <meta itemprop="description" content="Fresh.eu - Fresh>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/stylesheets/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/others/noxueu.png" type="image/x-icon">
+    <script type="text/javascript" src="assets/javascript/jquery.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+<body>
+    <div id="main">
+        <table class="box">
+         <tbody>
+            <tr><td><span id="line1" style="white-space:pre;"></span></td></tr>
+            <tr><td><span id="line2" style="white-space:pre;"></span></td></tr>
+            <tr><td><span id="line3 space" style="white-space:pre;"></span></td></tr>
+            <tr><td><span id="line4" style="white-space:pre;"></span></td></tr>
+        </tbody>
+        </table>
+    </div>
+
+    <div class="container" style="display: none;">
+        <h1 class="brand-header">
+            FRESH
+        </h1>
+        <p><span id="brand"></span></p>
+    </div>
+
+    <div class="marquee-container" style="display: none">
+        <pre>|<div id="marquee"></div>|</pre>
+    </div>
+
+    <div class="background" style="display: none;">
+        <i class="play-button fa fa-play" onclick="playAudio();"></i>
+        <i class="pause-button fa fa-pause" onclick="pauseAudio();"></i>
+
+        <div id="pattern"></div>
+        <audio id="audio" loop="">
+          <source src="assets/others/KUSO&#32;GVKI&#32;-&#32;Cinnamon&#32;(feat.&#32;Apfel)&#32;(splash!&#32;Mag&#32;Premiere).mp4" type="audio/mp4">
+          <script>
+                var audio = document.getElementById("audio");
+                app.audioElement = audio;
+                app.audioElement.volume = 0;
+          </script>
+        </audio>
+        <video id="background" loop="">
+            <source src="assets/others/KUSO&#32;GVKI&#32;-&#32;Cinnamon&#32;(feat.&#32;Apfel)&#32;(splash!&#32;Mag&#32;Premiere).mp4" type="video/mp4">
+            <script>
+                var video = document.getElementById("background");
+
+                app.videoElement = video;
+                app.videoElement.volume = 0;
+            </script>
+        </video>
+
+        <script type="text/javascript">
+function getElementsById(ids) {
+    var idList = ids.split(" ");
+    var results = [], item;
+    for (var i = 0; i < idList.length; i++) {
+        item = document.getElementById(idList[i]);
+        if (item) {
+            results.push(item);
+        }
+    }
+    return(results);
+}
+
+var x = document.getElementById("audio");
+
+function playAudio() {
+  x.play();
+}
+
+function pauseAudio() {
+  x.pause();
+}
+           </script>
+
+    </div>
+
+    <div class="top-right">
+        <i><a class="skip skajp fa fa-fast-forward"></a></i>
+    </div>
+
+
+    <div class="kill-feed"><div><span class="player t"></span><span class="weapons"><img height="20"/><img width="30" height="26" src="images/headshot.png"/></span><span class="player ct"></span></div></div>
+
+
+    <link rel="stylesheet" type="text/css" href="../cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/stylesheet.min.css">
+    <script type="text/javascript" src="assets/javascript/lib/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/lib/jquery.marquee.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/lib/jquery.cookie.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/lib/typed.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/portfolio.js"></script>
+</body>
+</html>
