@@ -15,29 +15,45 @@
             var links = [
 
                 {
-                    name: 'Discord',
-                    link: 'https://discord.gg/YH6hw6S'
+                  name: 'Steam',
+                  link: 'https://steamcommunity.com/id/FreshHDD/'
                 },
 
-                {
-                    name: 'Steam',
-                    link: 'https://steamcommunity.com/id/FreshHDD/'
-                },
 
                 {
                     name: 'YouTube',
                     link: 'https://www.youtube.com/channel/UCZf_U5Ovw9BYlSF-zR7ozFg?sub_confirmation=1'
                 },
-
+
+
                 {
-                  name: 'Instagram',
-                  link: 'https://www.instagram.com/freshmodzhd/'
+                    name: 'Twitch',
+                    link: 'https://www.twitch.tv/freshhd_tv'
 
                 },
+                {
+
+                    name: 'Instagram',
+                    link: 'https://www.instagram.com/freshmodzhd/'
+
+                },
+
+                {
+
+                    name: 'Twitter',
+                    link: 'https://twitter.com/FreshModzHD'
+
+                },
+                {
+
+                    name: 'Discord',
+                    link: 'https://discord.gg/YH6hw6S'
+
+                },
 
                 {
-                  name: 'Spotify',
-                  link: 'https://open.spotify.com/user/53clc14ve5y1kmzbqe4pia88o'
+                    name: 'Spotify',
+                    link: 'https://open.spotify.com/user/53clc14ve5y1kmzbqe4pia88o'
                 }
 
             ];
@@ -60,7 +76,7 @@
             {
                 $("#brand").replaceWith('<span id="brand" style="margin-left:0.3pc;"></span>');
 
-                $("#background").replaceWith('<div id="background" style="background-image: url(https://noxu.eu/assets/others/mobile-background.jpg);"></div>');
+                $("#background").replaceWith('<div id="background" style="background-image: url(https://ifresh.dev/assets/others/mobile-background.jpg);"></div>');
 
                 $("#audio").remove();
 
@@ -191,7 +207,7 @@
                         clearCursor();
 
 
-                        writeLine(["<i style='color: #F62459'>Fresh.eu $$$</i>"], 120, 500, function () {
+                        writeLine(["<i style='color: #F62459'>ifresh.dev $$$</i>"], 120, 500, function () {
 
                             timeouts.push(setTimeout(function () {
 
