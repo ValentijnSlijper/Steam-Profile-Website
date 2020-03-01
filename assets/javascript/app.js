@@ -13,7 +13,7 @@ var _app = function ()
     this.brandDescription = [
         "You’ve got to always go back in time if you want to move forward",
         "Worst comes to worst, my peoples come first",
-        " I am tired of talk that comes to nothing",
+        "I am tired of talk that comes to nothing",
         "Overnight skilled player",
         "Alcohol abuser",
         "#4292"
